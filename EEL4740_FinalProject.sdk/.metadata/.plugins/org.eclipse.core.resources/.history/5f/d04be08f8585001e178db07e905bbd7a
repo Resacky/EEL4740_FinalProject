@@ -12,18 +12,11 @@ XGpio push, dip;      // GPIO instance for push buttons
 XScuGic IntcInstance; // Interrupt Controller Instance
 XScuGic_Config *IntcConfig;
 
-// Array to store random numbers
-volatile unsigned int random_numbers[10];
-// int to store current level
+volatile unsigned int random_numbers[10]; // Array to store random numbers
 volatile int current_level = 0;
-// int to store current index
 volatile int current_index = 0;
-// Global variable to store the switch value, which is the speed modifier
-volatile unsigned int switch_value = 0;
-// global variable to take into account if the game is won
+volatile unsigned int switch_value = 0; // Global variable to store the switch value
 volatile int gameWon = 0;
-// global variable to take into account if the player exited the game
-volatile int exitGame = 0;
 
 /************************** Function Prototypes ******************************/
 static int Init_Peripherals();
@@ -44,7 +37,6 @@ void initGame();
 
 /************************** Function Definitions ****************************/
 
-// function to take into account the internal clocks delay
 void delay(int base_delay)
 {
     XTime tEnd, tCur;
@@ -57,7 +49,6 @@ void delay(int base_delay)
     }
 }
 
-// using the internal clock to generate a seed for random pattern generation
 void seed_random()
 {
     XTime t;
@@ -65,7 +56,6 @@ void seed_random()
     srand((unsigned int)t);
 }
 
-// code found within Lab 7 to initialize the interrupts of the switches and buttons
 static int Init_Peripherals()
 {
     int xResult = XGpio_Initialize(&dip, XPAR_SWITCHES_DEVICE_ID);
@@ -159,7 +149,6 @@ static void ExceptionInit()
     Xil_ExceptionEnableMask(XIL_EXCEPTION_ALL);
 }
 
-// function to handle the button interrupt, which holds most of the logic for the game itself.
 static void Push_Intr_Handler(void *CallBackRef)
 {
     XGpio *push_ptr = (XGpio *)CallBackRef;
@@ -177,8 +166,6 @@ static void Push_Intr_Handler(void *CallBackRef)
         // Check if both buttons 1 and 8 are pressed
         if (last_button_state == 9) {
             exitGame = 1; // Set the exit flag
-            XGpio_InterruptClear(push_ptr, 0xF);
-            XGpio_InterruptEnable(push_ptr, 0xF);
             return;
         }
         if (last_button_state == random_numbers[current_index])
@@ -191,9 +178,6 @@ static void Push_Intr_Handler(void *CallBackRef)
                     xil_printf("YOU WIN!!!\r\n");
                     gameWon = 1;
                     ledPatternCorrect();
-                    last_button_state = button_state;
-                    XGpio_InterruptClear(push_ptr, 0xF);
-                    XGpio_InterruptEnable(push_ptr, 0xF);
                     return; // Exit the function to stop further processing
                 }
                 current_level++;
@@ -217,7 +201,6 @@ static void Push_Intr_Handler(void *CallBackRef)
     XGpio_InterruptEnable(push_ptr, 0xF);
 }
 
-// function to handle the switch interrupt which is used to modify the speed of the game based on the switch value
 static void Switch_Intr_Handler(void *CallBackRef)
 {
     XGpio *switch_ptr = (XGpio *)CallBackRef;
@@ -240,7 +223,6 @@ void DisableIntr()
     XScuGic_Disconnect(&IntcInstance, XPAR_FABRIC_BUTTONS_IP2INTC_IRPT_INTR);
 }
 
-// functions to determine led pattern animations based on what conditions are needed
 void ledPattern()
 {
     xil_printf("Level: %x\r\n", current_level + 1);
@@ -286,7 +268,6 @@ void ledPatternUserInput(unsigned int last_button_state)
     delay(1);
 }
 
-// function to intialize a game
 void initGame() {
     current_level = 0;
     current_index = 0;
@@ -318,7 +299,8 @@ int main(void) {
 
     xil_printf("Interrupt configurations finished\r\n");
 
-    // Main game loop
+    volatile int exitGame = 0; // New flag to control game exit
+
     while (!exitGame) {
         initGame();
         while (!gameWon) {

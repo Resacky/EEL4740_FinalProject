@@ -13,13 +13,13 @@ XScuGic IntcInstance; // Interrupt Controller Instance
 XScuGic_Config *IntcConfig;
 
 // Array to store random numbers
-volatile unsigned int random_numbers[10];
+volatile unsigned int random_numbers[10]; 
 // int to store current level
 volatile int current_level = 0;
 // int to store current index
 volatile int current_index = 0;
 // Global variable to store the switch value, which is the speed modifier
-volatile unsigned int switch_value = 0;
+volatile unsigned int switch_value = 0; 
 // global variable to take into account if the game is won
 volatile int gameWon = 0;
 // global variable to take into account if the player exited the game
@@ -165,23 +165,24 @@ static void Push_Intr_Handler(void *CallBackRef)
     XGpio *push_ptr = (XGpio *)CallBackRef;
     XGpio_InterruptDisable(push_ptr, 0xF);
 
-    static unsigned int last_button_state = 1;
+    static unsigned int last_button_state = 0; // Initialize to 0 for rising edge detection
     unsigned int button_state = XGpio_DiscreteRead(push_ptr, 1);
 
-    // Edge detection: Trigger only on button release (falling edge)
-    if (button_state == 0 && last_button_state != 0)
+    // Edge detection: Trigger only on button press (rising edge)
+    if (button_state != 0 && last_button_state == 0)
     {
-        // Button release detected
-        xil_printf("Button release detected: %x\r\n", last_button_state);
-        ledPatternUserInput(last_button_state);
+        xil_printf("Button press detected: %x\r\n", button_state);
+        ledPatternUserInput(button_state);
+        
         // Check if both buttons 1 and 8 are pressed
-        if (last_button_state == 9) {
+        if (button_state == 9) {
             exitGame = 1; // Set the exit flag
             XGpio_InterruptClear(push_ptr, 0xF);
             XGpio_InterruptEnable(push_ptr, 0xF);
             return;
         }
-        if (last_button_state == random_numbers[current_index])
+
+        if (button_state == random_numbers[current_index])
         {
             current_index++;
             if (current_level < current_index)
@@ -191,7 +192,6 @@ static void Push_Intr_Handler(void *CallBackRef)
                     xil_printf("YOU WIN!!!\r\n");
                     gameWon = 1;
                     ledPatternCorrect();
-                    last_button_state = button_state;
                     XGpio_InterruptClear(push_ptr, 0xF);
                     XGpio_InterruptEnable(push_ptr, 0xF);
                     return; // Exit the function to stop further processing
@@ -207,7 +207,7 @@ static void Push_Intr_Handler(void *CallBackRef)
         {
             current_level = 0;
             current_index = 0;
-            xil_printf("Incorrect. Expected: %x, Received: %x\r\n", random_numbers[current_index], last_button_state);
+            xil_printf("Incorrect. Expected: %x, Received: %x\r\n", random_numbers[current_index], button_state);
             ledPatternIncorrect();
             ledPattern();
         }

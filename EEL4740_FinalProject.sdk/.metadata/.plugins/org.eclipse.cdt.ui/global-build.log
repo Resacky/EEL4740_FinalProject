@@ -448,3 +448,248 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
+14:57:06 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:57:30 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:07:52 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+../src/lab7.c: In function 'Push_Intr_Handler':
+../src/lab7.c:168:13: error: 'exitGame' undeclared (first use in this function)
+             exitGame = 1; // Set the exit flag
+             ^~~~~~~~
+../src/lab7.c:168:13: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/lab7.o] Error 1
+15:11:58 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30788	   2764	  22688	  56240	   dbb0	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:12:08 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:12:50 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30788	   2764	  22688	  56240	   dbb0	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:12:58 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:15:40 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30852	   2764	  22688	  56304	   dbf0	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:15:50 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:17:27 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30852	   2764	  22688	  56304	   dbf0	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:17:32 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:17:42 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:19:36 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:26:05 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30784	   2756	  22704	  56244	   dbb4	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:26:10 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:30:47 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30784	   2756	  22704	  56244	   dbb4	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:30:57 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:34:29 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30788	   2756	  22688	  56232	   dba8	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:34:40 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:35:50 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+../src/lab7.c: In function 'Push_Intr_Handler':
+../src/lab7.c:169:40: error: initializer element is not constant
+     static unsigned int button_state = XGpio_DiscreteRead(push_ptr, 1);
+                                        ^~~~~~~~~~~~~~~~~~
+make: *** [src/lab7.o] Error 1
+15:36:09 **** Auto Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lab7.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab7.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MemoryGame_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/lab7.d" -MT"src/lab7.o" -o "src/lab7.o" "../src/lab7.c"
+'Finished building: ../src/lab7.c'
+' '
+'Building target: MemoryGame.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MemoryGame_bsp/ps7_cortexa9_0/lib -o "MemoryGame.elf"  ./src/lab7.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MemoryGame.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MemoryGame.elf  |tee "MemoryGame.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30852	   2764	  22688	  56304	   dbf0	MemoryGame.elf
+'Finished building: MemoryGame.elf.size'
+' '
+15:36:25 **** Incremental Build of configuration Debug for project MemoryGame ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

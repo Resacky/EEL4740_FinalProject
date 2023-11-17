@@ -165,7 +165,7 @@ static void Push_Intr_Handler(void *CallBackRef)
     XGpio *push_ptr = (XGpio *)CallBackRef;
     XGpio_InterruptDisable(push_ptr, 0xF);
 
-    static unsigned int last_button_state = 1;
+    unsigned int last_button_state = 1;
     unsigned int button_state = XGpio_DiscreteRead(push_ptr, 1);
 
     // Edge detection: Trigger only on button release (falling edge)

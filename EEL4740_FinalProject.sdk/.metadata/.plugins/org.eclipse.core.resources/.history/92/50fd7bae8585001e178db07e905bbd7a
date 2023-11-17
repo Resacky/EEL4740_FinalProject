@@ -177,8 +177,6 @@ static void Push_Intr_Handler(void *CallBackRef)
         // Check if both buttons 1 and 8 are pressed
         if (last_button_state == 9) {
             exitGame = 1; // Set the exit flag
-            XGpio_InterruptClear(push_ptr, 0xF);
-            XGpio_InterruptEnable(push_ptr, 0xF);
             return;
         }
         if (last_button_state == random_numbers[current_index])
@@ -191,9 +189,6 @@ static void Push_Intr_Handler(void *CallBackRef)
                     xil_printf("YOU WIN!!!\r\n");
                     gameWon = 1;
                     ledPatternCorrect();
-                    last_button_state = button_state;
-                    XGpio_InterruptClear(push_ptr, 0xF);
-                    XGpio_InterruptEnable(push_ptr, 0xF);
                     return; // Exit the function to stop further processing
                 }
                 current_level++;
