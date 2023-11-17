@@ -167,18 +167,16 @@ static void Push_Intr_Handler(void *CallBackRef)
             current_index++;
             if (current_level < current_index)
             {
-                if (current_level == 9) // Check if current level is 9 (the 10th level, since it starts at 0)
-                {
-                    xil_printf("YOU WIN!!!\r\n");
-                    gameWon = 1;
-                    ledPatternCorrect();
-                    return; // Exit the function to stop further processing
-                }
                 current_level++;
                 current_index = 0;
                 xil_printf("Next level!\r\n");
                 ledPatternCorrect();
                 ledPattern();
+                if (current_level >= 10)
+                {
+                    xil_printf("YOU WIN!!!\r\n");
+                    gameWon = 1;
+                }
             }
         }
         else

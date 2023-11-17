@@ -16,7 +16,6 @@ volatile unsigned int random_numbers[10]; // Array to store random numbers
 volatile int current_level = 0;
 volatile int current_index = 0;
 volatile unsigned int switch_value = 0; // Global variable to store the switch value
-volatile int gameWon = 0;
 
 /************************** Function Prototypes ******************************/
 static int Init_Peripherals();
@@ -32,7 +31,6 @@ void seed_random();
 void ledPattern();
 void ledPatternIncorrect();
 void ledPatternCorrect();
-void ledPatternUserInput();
 
 /************************** Function Definitions ****************************/
 
@@ -153,44 +151,44 @@ static void Push_Intr_Handler(void *CallBackRef)
     XGpio *push_ptr = (XGpio *)CallBackRef;
     XGpio_InterruptDisable(push_ptr, 0xF);
 
-    static unsigned int last_button_state = 1;
+    static unsigned int last_button_state = 0;
     unsigned int button_state = XGpio_DiscreteRead(push_ptr, 1);
 
-    // Edge detection: Trigger only on button release (falling edge)
-    if (button_state == 0 && last_button_state != 0)
+    // Edge detection: Trigger only on button press (rising edge)
+    if (button_state != last_button_state)
     {
-        // Button release detected
-        xil_printf("Button release detected: %x\r\n", last_button_state);
-        ledPatternUserInput(last_button_state);
-        if (last_button_state == random_numbers[current_index])
+        last_button_state = button_state;
+        LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, button_state);
+        if (button_state != 0)
         {
-            current_index++;
-            if (current_level < current_index)
+            // Button press detected
+            xil_printf("Button press detected: %x\r\n", button_state);
+            if (button_state == random_numbers[current_index])
             {
-                if (current_level == 9) // Check if current level is 9 (the 10th level, since it starts at 0)
+                current_index++;
+                if (current_index > current_level)
                 {
-                    xil_printf("YOU WIN!!!\r\n");
-                    gameWon = 1;
+                    current_level++;
+                    current_index = 0;
+                    xil_printf("Next level!\r\n");
                     ledPatternCorrect();
-                    return; // Exit the function to stop further processing
+                    ledPattern();
+                    if (current_level >= 10)
+                    {
+                        xil_printf("YOU WIN!!!\r\n");
+                    }
                 }
-                current_level++;
+            }
+            else
+            {
+                current_level = 0;
                 current_index = 0;
-                xil_printf("Next level!\r\n");
-                ledPatternCorrect();
+                xil_printf("Incorrect. Expected: %x, Received: %x\r\n", random_numbers[current_index], button_state);
+                ledPatternIncorrect();
                 ledPattern();
             }
         }
-        else
-        {
-            current_level = 0;
-            current_index = 0;
-            xil_printf("Incorrect. Expected: %x, Received: %x\r\n", random_numbers[current_index], last_button_state);
-            ledPatternIncorrect();
-            ledPattern();
-        }
     }
-    last_button_state = button_state;
     XGpio_InterruptClear(push_ptr, 0xF);
     XGpio_InterruptEnable(push_ptr, 0xF);
 }
@@ -232,8 +230,7 @@ void ledPattern()
     xil_printf("Your turn!\r\n");
 }
 
-void ledPatternCorrect()
-{
+void ledPatternCorrect () {
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 15);
     delay(1);
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0);
@@ -251,14 +248,6 @@ void ledPatternIncorrect()
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0);
     delay(1);
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 15);
-    delay(1);
-}
-
-void ledPatternUserInput(unsigned int last_button_state)
-{
-    LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, last_button_state);
-    delay(1);
-    LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0);
     delay(1);
 }
 
@@ -295,11 +284,14 @@ int main(void)
             break;
         }
     }
+
     ledPattern();
-    while (gameWon == 0)
+
+    while (1)
     {
         // while buffer, waiting for interrupt.
     }
+
     DisableIntr();
     return 0;
 }

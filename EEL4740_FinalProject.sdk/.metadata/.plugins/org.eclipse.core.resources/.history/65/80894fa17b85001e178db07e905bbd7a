@@ -32,7 +32,6 @@ void seed_random();
 void ledPattern();
 void ledPatternIncorrect();
 void ledPatternCorrect();
-void ledPatternUserInput();
 
 /************************** Function Definitions ****************************/
 
@@ -161,24 +160,21 @@ static void Push_Intr_Handler(void *CallBackRef)
     {
         // Button release detected
         xil_printf("Button release detected: %x\r\n", last_button_state);
-        ledPatternUserInput(last_button_state);
         if (last_button_state == random_numbers[current_index])
         {
             current_index++;
             if (current_level < current_index)
             {
-                if (current_level == 9) // Check if current level is 9 (the 10th level, since it starts at 0)
-                {
-                    xil_printf("YOU WIN!!!\r\n");
-                    gameWon = 1;
-                    ledPatternCorrect();
-                    return; // Exit the function to stop further processing
-                }
                 current_level++;
                 current_index = 0;
                 xil_printf("Next level!\r\n");
                 ledPatternCorrect();
                 ledPattern();
+                if (current_level >= 10)
+                {
+                    xil_printf("YOU WIN!!!\r\n");
+                    gameWon = 1;
+                }
             }
         }
         else
@@ -232,8 +228,7 @@ void ledPattern()
     xil_printf("Your turn!\r\n");
 }
 
-void ledPatternCorrect()
-{
+void ledPatternCorrect () {
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 15);
     delay(1);
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0);
@@ -251,14 +246,6 @@ void ledPatternIncorrect()
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0);
     delay(1);
     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 15);
-    delay(1);
-}
-
-void ledPatternUserInput(unsigned int last_button_state)
-{
-    LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, last_button_state);
-    delay(1);
-    LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, 0);
     delay(1);
 }
 
