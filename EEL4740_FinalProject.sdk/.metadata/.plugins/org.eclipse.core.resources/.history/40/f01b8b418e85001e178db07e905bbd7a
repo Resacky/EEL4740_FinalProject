@@ -165,18 +165,16 @@ static void Push_Intr_Handler(void *CallBackRef)
     XGpio *push_ptr = (XGpio *)CallBackRef;
     XGpio_InterruptDisable(push_ptr, 0xF);
 
-    // this int is for the edge detection of the button itself. It is set to 1 to indicate a falling edge.
     static unsigned int last_button_state = 1;
-    unsigned int button_state = XGpio_DiscreteRead(push_ptr, 1) & 0x0F;
+    unsigned int button_state = XGpio_DiscreteRead(push_ptr, 1);
 
-    // Edge detection: Trigger only on button release (falling edge), this is to fix finicky behaviours with the buttons
+    // Edge detection: Trigger only on button release (falling edge)
     if (button_state == 0 && last_button_state != 0)
     {
         // Button release detected
         xil_printf("Button release detected: %x\r\n", last_button_state);
         ledPatternUserInput(last_button_state);
-        // Check if both buttons 1 and 8 are pressed, which if set off it will exit the game at the users request.
-        //There is a bug where the buttons 9 binary is not being recognized.
+        // Check if both buttons 1 and 8 are pressed
         if (last_button_state == 9) {
             exitGame = 1; // Set the exit flag
             XGpio_InterruptClear(push_ptr, 0xF);

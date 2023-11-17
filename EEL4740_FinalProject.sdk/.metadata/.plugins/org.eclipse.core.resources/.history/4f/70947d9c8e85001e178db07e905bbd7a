@@ -165,7 +165,6 @@ static void Push_Intr_Handler(void *CallBackRef)
     XGpio *push_ptr = (XGpio *)CallBackRef;
     XGpio_InterruptDisable(push_ptr, 0xF);
 
-    // this int is for the edge detection of the button itself. It is set to 1 to indicate a falling edge.
     static unsigned int last_button_state = 1;
     unsigned int button_state = XGpio_DiscreteRead(push_ptr, 1) & 0x0F;
 

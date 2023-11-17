@@ -5895,3 +5895,131 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 
 !ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 15:36:23.288
 !MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.003
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.007
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.008
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.010
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.012
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.021
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.022
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.033
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.034
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.054
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.055
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.091
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:16.092
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:18.432
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:19.233
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:19.237
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:20.132
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:20.140
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:20.141
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:20.145
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:20.146
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 16:14:20.148
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.debug.core 4 0 2023-11-17 16:16:49.789
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.debug.core.DebugPlugin.stop() of bundle org.eclipse.debug.core.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:850)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:946)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1580)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(TM.java:756)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(AppRunner.java:192)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(RemoteProcess.java:132)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:248)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2379)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:660)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:830)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:823)
+	... 13 more
+Root exception:
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(TM.java:756)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.stopRun(AppRunner.java:192)
+	at com.xilinx.sdk.debug.core.internal.RemoteProcess.terminate(RemoteProcess.java:132)
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:248)
+	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2379)
+	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:660)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:830)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:823)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:946)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:314)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1580)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:270)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:636)
+	at org.eclipse.osgi.container.Module.stop(Module.java:498)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:202)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:745)
