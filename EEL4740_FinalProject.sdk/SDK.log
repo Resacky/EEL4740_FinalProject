@@ -50,3 +50,7 @@
 13:12:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
 13:12:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
 13:12:46 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:20:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:20:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:20:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+13:20:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
