@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
 -- Date        : Fri Nov 17 10:08:01 2023
 -- Host        : Josephs-Tablet running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_3/system_auto_pc_3_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top system_auto_pc_3 -prefix
+--               system_auto_pc_3_ system_auto_pc_3_stub.vhdl
 -- Design      : system_auto_pc_3
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z020clg400-1

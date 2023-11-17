@@ -1,59 +1,59 @@
-!SESSION 2023-11-17 10:30:29.341 -----------------------------------------------
+!SESSION 2023-11-17 13:08:38.405 -----------------------------------------------
 eclipse.buildId=2017.4
 java.version=1.8.0_112
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk
 
-!ENTRY org.eclipse.ui 2 0 2023-11-17 10:31:05.191
+!ENTRY org.eclipse.ui 2 0 2023-11-17 13:08:55.402
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-17 10:31:05.191
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-17 13:08:55.402
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY org.eclipse.ui 2 0 2023-11-17 10:31:07.558
+!ENTRY org.eclipse.ui 2 0 2023-11-17 13:08:56.249
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-17 10:31:07.558
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-17 13:08:56.249
 !MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:35.142
-!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:06.899
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:35.152
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:06.902
 !MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:40.338
-!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:09.952
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:40.339
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:09.953
 !MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:40.341
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:09.953
 !MESSAGE XSCT Command: [setws C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk], Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:40.347
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:09.955
 !MESSAGE XSCT command with result: [setws C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk], Result: [null, ]. Thread: Thread-14
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:40.495
-!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-10
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:10.071
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.149
-!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-10
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:14.834
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.177
-!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-10
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:14.852
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.184
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:14.855
 !MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z020",
 "family": "zynq",
-"timestamp": "Fri Nov 17 10:02:27 2023",
+"timestamp": "Fri Nov 17 11:45:39 2023",
 "vivado_version": "2017.4",
 "part": "xc7z020clg400-1",
-}]. Thread: Worker-10
+}]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.188
-!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-10
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:14.858
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.211
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:14.872
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_bram_ctrl_0": {"hier_name": "axi_bram_ctrl_0",
 "type": "axi_bram_ctrl",
 "version": "4.0",
@@ -254,12 +254,12 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/ruiz-/E
 "version": "1.00.a",
 "ip_type": "PERIPHERAL",
 },
-}]. Thread: Worker-10
+}]. Thread: Worker-7
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.520
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:15.008
 !MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.562
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:15.024
 !MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"switches_S_AXI": {"name": "switches",
 "base": "0x41200000",
 "high": "0x4120FFFF",
@@ -603,10 +603,10 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/ruiz-/E
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.655
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:15.087
 !MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.691
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:15.108
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"axi_bram_ctrl_0": {},
 "buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
 "address_offset": "0x0",
@@ -992,10 +992,10 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.697
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:15.123
 !MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:31:48.732
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:15.146
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"axi_bram_ctrl_0": {},
 "buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
 "address_offset": "0x0",
@@ -1381,10 +1381,10 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.620
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.841
 !MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.636
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.849
 !MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos901_xilinx_v1_1": {"name": "freertos901_xilinx",
 "version": "1.1",
 "desc": "FreeRTOS is a market leading open source RTOS",
@@ -1417,46 +1417,46 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.686
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.873
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.688
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.875
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.698
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.884
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.701
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.886
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.702
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.887
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.704
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.889
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.706
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.891
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.708
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.893
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.709
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.894
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.712
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.896
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.726
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.907
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.729
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.909
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.731
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:23.910
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.995
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:24.164
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
 "description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
 "supp_proc": "psu_cortexr5",
@@ -1640,70 +1640,130 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:19.998
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:24.168
 !MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:20.036
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:24.204
 !MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:20.039
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:24.207
 !MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:20.067
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:24.238
 !MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.116
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:26.594
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.119
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:26.596
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.164
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:26.732
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.166
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:26.735
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.600
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:26.843
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.602
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:26.846
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.745
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.019
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.747
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.022
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.969
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.124
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:22.971
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.128
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:23.184
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.260
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:23.187
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.264
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:23.278
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.772
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:23.281
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.775
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:23.397
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.964
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:23.399
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.967
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:29.511
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.984
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:27.986
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.074
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.076
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.108
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.110
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.450
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.453
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.563
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.566
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.704
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.707
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.843
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:28.846
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:29.355
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:29.359
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:29.478
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:29.481
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:29.522
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:29.524
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:33.205
 !MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:29.779
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:33.443
 !MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
 "description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
 "supp_proc": "psu_cortexr5",
@@ -1887,62 +1947,62 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:29.782
-!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:33.444
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:29.816
-!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:33.477
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -os standalone -processor ps7_cortexa9_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:30.937
-!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw Code_bsp -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp -processor ps7_cortexa9_0 -os standalone -app hello_world], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:34.622
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw MemoryGame_bsp -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp -processor ps7_cortexa9_0 -os standalone -app empty_application], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:30.977
-!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw Code_bsp -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp -processor ps7_cortexa9_0 -os standalone -app hello_world], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:34.660
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw MemoryGame_bsp -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp -processor ps7_cortexa9_0 -os standalone -app empty_application], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:31.185
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:34.878
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:31.188
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:34.881
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:31.189
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:34.882
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:31.193
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:34.886
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.5",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:31.195
-!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:34.887
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:33.315
-!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:36.961
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.785
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.717
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.795
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.720
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.798
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.721
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.807
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {}]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.725
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {}]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.811
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.726
 !MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.820
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.729
 !MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, axi_bram_ctrl_0 buttons led_ip ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_globaltimer_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_slcr_0 ps7_uart_1 ps7_xadc_0 switches]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.824
-!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.730
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.855
-!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {"axi_bram_ctrl_0": {"name": "bram",
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.737
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"axi_bram_ctrl_0": {"name": "bram",
 "ver": "4.2",
 },
 "buttons": {"name": "gpio",
@@ -2040,10 +2100,10 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:35.861
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.739
 !MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.643
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.831
 !MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_bram_ctrl_0": {"version": "4.0",
 "driver_info": {"generic": {"name": "generic",
 "version": "2.0",
@@ -2422,77 +2482,77 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.657
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.834
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.672
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.837
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.676
-!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.838
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.691
-!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {}]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.842
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {}]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.696
-!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.843
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.705
-!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.846
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.886
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.879
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.915
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.883
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.919
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.883
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.935
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.887
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.5",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.939
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.888
 !MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.948
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.891
 !MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.952
-!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.892
+!MESSAGE XSCT Command: [::hsi::utils::opensw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.960
-!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.894
+!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:36.965
-!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss -app hello_world -processor ps7_cortexa9_0 -os standalone -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code/src], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.896
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame/src], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:37.533
-!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss -app hello_world -processor ps7_cortexa9_0 -os standalone -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code/src], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:38.955
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf -sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss -app empty_application -processor ps7_cortexa9_0 -os standalone -dir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame/src], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:39.604
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.347
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:40.256
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.350
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:40.262
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.351
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:40.306
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.356
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.5",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:40.502
-!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.373
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:40.688
-!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {"axi_bram_ctrl_0": {"name": "bram",
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.381
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"axi_bram_ctrl_0": {"name": "bram",
 "ver": "4.2",
 },
 "buttons": {"name": "gpio",
@@ -2590,34 +2650,61 @@ Don't forget to modify blconfig.h to reflect the offset where your SREC image re
 },
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:41.583
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.721
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:41.636
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.723
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:41.641
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.724
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:41.684
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.727
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
 "osname": "standalone",
 "osver": "6.5",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:41.722
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.735
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:41.965
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.738
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:42.592
-!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.803
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:42.605
-!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:39.805
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:47.652
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.560
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.568
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.569
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.575
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.586
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.592
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.656
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:09:40.659
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:40.941
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2644,34 +2731,7 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:47.793
-!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:47.909
-!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss ], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:47.912
-!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:48.002
-!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
-"osname": "standalone",
-"osver": "6.5",
-}]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:48.104
-!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:48.144
-!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:49.357
-!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Thread: main
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:32:49.376
-!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/Code_bsp/system.mss], Result: [null, ]. Thread: main
-
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:51.402
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.170
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2682,7 +2742,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:51.468
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.182
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2693,7 +2753,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:54.882
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.499
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2704,7 +2764,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:54.948
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.507
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2715,7 +2775,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:56.145
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.688
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2726,7 +2786,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:56.229
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.694
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2737,7 +2797,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:57.495
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.891
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2748,7 +2808,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:57.533
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:41.898
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2759,7 +2819,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:58.489
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.106
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2770,7 +2830,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:58.520
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.116
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2781,10 +2841,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 1 0 2023-11-17 10:32:58.563
-!MESSAGE Indexed 'Code_bsp' (95 sources, 62 headers) in 12.1 sec: 2,765 declarations; 14,938 references; 45 unresolved inclusions; 3 syntax errors; 51 unresolved names (0.29%)
-
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:59.183
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.333
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2795,7 +2852,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:59.204
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.342
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2806,7 +2863,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:59.760
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.561
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2817,7 +2874,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:32:59.788
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.569
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2828,7 +2885,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:00.352
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.766
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2839,7 +2896,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:00.373
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.775
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2850,7 +2907,10 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:01.374
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-17 13:09:42.970
+!MESSAGE Indexed 'MemoryGame_bsp' (95 sources, 62 headers) in 2.25 sec: 2,765 declarations; 14,938 references; 45 unresolved inclusions; 3 syntax errors; 51 unresolved names (0.29%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.972
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2860,8 +2920,11 @@ java.lang.NullPointerException
 	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-11-17 13:09:42.974
+!MESSAGE Indexed 'MemoryGame' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:01.391
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:42.983
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2872,7 +2935,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:02.572
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:43.171
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2883,7 +2946,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:02.599
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:43.178
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2894,7 +2957,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:03.457
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:43.376
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2905,7 +2968,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:03.485
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:43.383
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2916,7 +2979,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:04.075
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:43.598
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2927,7 +2990,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:04.097
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:43.615
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2938,7 +3001,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:05.706
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:44.325
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2949,7 +3012,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:05.724
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:44.333
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2960,7 +3023,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:06.124
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:44.537
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2971,7 +3034,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:06.141
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:44.544
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2982,7 +3045,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:06.568
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:44.743
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -2993,7 +3056,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:06.585
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:44.750
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3004,7 +3067,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:06.838
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:44.887
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3015,7 +3078,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:11.138
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:47.223
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3026,7 +3089,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:11.405
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:47.435
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3037,7 +3100,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:11.418
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:47.443
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3048,7 +3111,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:11.629
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:47.576
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3059,7 +3122,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:12.408
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:47.986
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3070,7 +3133,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:12.420
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:47.994
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3081,7 +3144,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:12.671
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:48.124
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3092,7 +3155,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:12.854
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:48.185
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3103,7 +3166,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:12.869
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:48.192
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3114,7 +3177,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:13.126
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:48.331
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3125,7 +3188,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:13.358
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:48.456
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3136,7 +3199,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:13.372
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:48.464
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3147,7 +3210,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:13.644
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:48.594
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3158,7 +3221,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:17.511
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:50.583
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3169,7 +3232,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:17.520
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:50.591
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3180,7 +3243,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:17.703
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:50.741
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3191,7 +3254,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:20.328
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:52.618
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3202,7 +3265,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:20.339
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:52.625
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3213,7 +3276,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:20.573
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:52.753
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3224,7 +3287,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:23.618
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:54.507
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3235,7 +3298,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:23.629
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:54.516
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3246,7 +3309,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:23.817
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:54.653
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3257,7 +3320,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.542
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.119
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3268,7 +3331,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.554
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.127
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3279,7 +3342,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.556
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.129
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3290,7 +3353,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.558
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.130
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3301,7 +3364,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.561
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.132
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3312,7 +3375,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.562
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.133
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3323,7 +3386,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.564
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.134
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3334,7 +3397,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.820
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.352
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3345,7 +3408,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.830
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.359
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3356,7 +3419,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:24.990
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:55.494
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3367,7 +3430,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:27.748
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:57.325
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3378,7 +3441,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:27.765
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:57.332
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3389,7 +3452,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:28.047
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:57.465
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3400,7 +3463,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:30.249
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:58.594
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3411,7 +3474,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:30.260
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:58.601
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3422,7 +3485,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:30.518
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:58.735
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3433,7 +3496,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:32.805
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:59.935
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3444,7 +3507,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:32.816
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:09:59.944
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3455,7 +3518,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:33.107
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:00.168
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3466,7 +3529,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:48.583
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:09.954
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3477,7 +3540,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:48.596
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:09.961
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3488,7 +3551,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:48.832
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:10.104
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3499,7 +3562,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:52.322
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:12.229
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3510,7 +3573,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:52.333
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:12.235
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3521,7 +3584,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:52.527
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:12.369
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3532,7 +3595,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:54.988
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:14.061
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3543,7 +3606,7 @@ java.lang.NullPointerException
 	at java.io.OutputStream.write(OutputStream.java:75)
 	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
 
-!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 10:33:55.027
+!ENTRY org.eclipse.cdt.core 4 0 2023-11-17 13:10:14.117
 !MESSAGE Error
 !STACK 0
 java.lang.NullPointerException
@@ -3568,68 +3631,242 @@ java.lang.NullPointerException
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.cdt.core 1 0 2023-11-17 10:33:56.330
-!MESSAGE Indexed 'Code' (2 sources, 43 headers) in 0.787 sec: 1,293 declarations; 2,262 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
-
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:05.176
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:37.857
 !MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf bit], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:05.178
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:37.860
 !MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf bit], Result: [null, system_wrapper.bit]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:05.180
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:37.862
 !MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:05.184
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:37.865
 !MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, {"ps7_cortexa9_0": "system_i/ps7_cortexa9_0:system_i",
 "ps7_cortexa9_1": "system_i/ps7_cortexa9_1:system_i",
 }]. Thread: main
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:06.443
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:39.150
 !MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:06.454
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:39.157
 !MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:06.459
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:39.161
 !MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.311
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:41.875
 !MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.315
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:41.878
 !MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.597
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.387
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.601
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.391
 !MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.608
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.397
 !MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.609
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.397
 !MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.629
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.416
 !MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
      3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.632
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.419
 !MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.657
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.497
 !MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:09.658
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:42.498
 !MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:12.077
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:44.830
 !MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:12.898
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:45.648
 !MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
 
-!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 10:35:12.923
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:10:45.652
 !MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY org.eclipse.debug.ui 4 0 2023-11-17 13:11:04.915
+!MESSAGE Launch shortcut 'com.xilinx.sdk.launch.remote.shortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.File
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableConfigurationTypes(LaunchConfigurationManager.java:736)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationManager.getApplicableLaunchConfigurations(LaunchConfigurationManager.java:773)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getParticipatingLaunchConfigurations(LaunchingResourceManager.java:507)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getLabel(LaunchingResourceManager.java:324)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:244)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2023-11-17 13:11:04.915
+!MESSAGE No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.File
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.120
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.128
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.129
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.131
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.133
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.141
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.143
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.151
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.152
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.173
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.174
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.211
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:07.212
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:09.567
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:10.369
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:10.374
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:12.424
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:12.431
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:12.432
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:12.436
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:12.437
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:12.439
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:25.729
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:11:25.733
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-6
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.577
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.581
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.582
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.585
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.587
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.599
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.600
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.610
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.612
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.638
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.639
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.669
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:35.670
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:37.992
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:38.799
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:38.803
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:40.866
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:40.870
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:40.871
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:40.875
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:40.876
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-17 13:12:40.879
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
