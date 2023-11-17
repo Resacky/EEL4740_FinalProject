@@ -1,0 +1,6 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_auto_pc_0_synth_1/dont_touch.xdc rfile:../../../dont_touch.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc rfile:../../../../../EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc id:2 order:EARLY scoped_inst:inst} [current_design]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property DONT_TOUCH true [get_cells inst]
+set_property src_info {type:SCOPED_XDC file:2 line:55 export:INPUT save:INPUT read:FILTER_OUT_OF_CONTEXT} [current_design]
+create_clock -period 10.000 -name aclk [get_ports aclk]
