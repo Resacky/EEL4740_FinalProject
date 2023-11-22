@@ -5667,3 +5667,1074 @@ org.eclipse.core.runtime.CoreException: No property tester contributes a propert
 "index": "1",
 },
 }]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:47:23.262
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:47:23.268
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:47:23.269
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:47:23.274
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:47:23.274
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:47:23.277
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:48:40.921
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:48:40.926
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:48:40.926
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:48:40.929
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:48:40.930
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:48:40.932
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:49:30.709
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:49:30.714
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:49:30.715
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:49:30.718
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:49:30.718
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:49:30.720
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.184
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.187
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.188
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.190
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.190
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.207
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.208
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.212
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.213
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.229
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.230
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.265
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:50:58.266
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:00.597
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:01.400
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:01.403
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:02.176
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:02.180
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:02.181
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:02.184
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:02.185
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:51:02.187
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:52:45.917
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:52:45.921
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:52:45.922
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:52:45.925
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:52:45.925
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:52:45.926
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:00.664
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:00.667
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:00.668
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:00.671
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:00.672
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:00.673
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:16.311
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:16.315
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:16.315
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:16.318
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:16.318
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:16.320
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:40.162
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:40.166
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:40.166
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:40.169
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:40.170
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:53:40.171
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.009
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.012
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.012
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.027
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.028
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.033
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.034
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.038
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.039
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.055
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.056
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.094
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:06.094
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:08.415
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:09.231
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:09.234
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:15.265
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:15.269
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:15.270
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:15.273
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:15.273
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:54:15.275
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:58:14.282
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:58:14.285
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:58:14.286
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:58:14.289
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:58:14.289
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:58:14.290
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:59:14.063
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:59:14.067
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:59:14.068
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:59:14.071
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:59:14.071
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 21:59:14.073
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:00:58.285
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:00:58.290
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:00:58.290
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:00:58.293
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:00:58.294
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:00:58.295
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.937
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.940
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.941
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.942
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.943
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.948
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.948
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.953
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.953
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.968
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.969
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.986
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:17.986
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:20.296
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:21.102
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:21.105
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:23.432
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:23.436
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:23.436
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:23.439
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:23.439
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:23.441
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.065
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.068
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.068
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.070
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.070
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.075
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.076
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.080
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.081
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.096
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.097
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.115
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:57.115
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:01:59.446
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:00.260
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:00.263
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:01.789
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:01.792
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:01.793
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:01.796
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:01.796
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:02:01.798
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:14.926
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:14.929
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:14.930
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:14.933
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:14.933
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:14.934
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:25.362
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:25.367
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:25.367
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:25.370
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:25.371
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:25.372
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:35.870
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:35.875
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:35.875
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:35.879
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:35.879
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:03:35.881
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.920
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.923
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.924
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.933
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.934
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.956
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.957
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.961
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.961
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.976
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.977
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.995
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:06.996
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:09.314
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:10.126
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:10.129
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:12.750
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:12.754
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:12.755
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:12.758
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:12.758
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:12.759
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:23.988
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:23.992
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:23.992
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:23.995
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:23.996
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:23.997
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:43.030
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:43.033
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:43.034
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:43.037
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:43.037
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:04:43.038
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:16.938
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:16.942
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:16.942
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:16.946
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:16.946
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:16.948
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.081
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.084
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.085
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.088
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.088
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.095
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.096
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.101
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.102
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.117
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.117
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.143
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:37.144
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:39.463
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:40.265
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:40.268
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:42.480
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:42.484
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:42.484
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:42.487
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:42.487
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:42.489
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:46.978
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:46.982
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:46.982
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:46.985
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:46.985
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:46.987
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.130
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.133
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.133
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.134
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.135
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.140
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.141
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.146
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.146
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.161
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.162
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.179
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:49.180
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:51.496
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.298
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.301
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.963
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.966
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.967
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.970
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.970
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:05:52.971
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:11.208
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:11.211
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:11.212
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:11.215
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:11.215
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:11.217
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:44.930
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:44.933
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:44.934
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:44.937
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:44.937
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:12:44.939
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:14.858
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:14.862
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:14.863
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:14.866
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:14.866
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:14.868
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.182
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.201
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.202
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.204
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.204
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.210
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.211
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.216
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.216
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.231
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.232
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.271
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:37.271
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:39.591
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:40.395
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:40.398
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:41.147
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:41.151
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:41.152
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:41.155
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:41.155
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:16:41.157
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.166
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.169
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.170
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.172
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.172
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.178
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.178
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.183
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AD6B8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.183
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.199
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.199
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.218
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AD6B8EA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:54.219
+!MESSAGE XSCT Command: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:56.540
+!MESSAGE XSCT command with result: [fpga -file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:57.349
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:57.352
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf ], Result: [null, axi_bram_ctrl_0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:59.429
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:59.433
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:59.433
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:59.436
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:59.437
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:18:59.438
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:19:22.797
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:19:22.801
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:19:22.802
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:19:22.805
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper_hw_platform_0/system.hdf C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.5",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:19:22.805
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-21 22:19:22.807
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/MemoryGame_bsp/system.mss], Result: [null, ]. Thread: main

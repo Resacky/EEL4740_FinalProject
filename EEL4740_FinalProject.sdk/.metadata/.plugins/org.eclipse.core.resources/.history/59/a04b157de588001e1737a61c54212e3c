@@ -320,17 +320,17 @@ void ledPatternUserInput(unsigned int last_button_state)
 void displayLevel(int level) {
     unsigned int display_pattern;
     switch(level) {
-        case 0: display_pattern = ONE; break;
-        case 1: display_pattern = TWO; break;
-        case 2: display_pattern = THREE; break;
-        case 3: display_pattern = FOUR; break;
-        case 4: display_pattern = FIVE; break;
-        case 5: display_pattern = SIX; break;
-        case 6: display_pattern = SEVEN; break;
-        case 7: display_pattern = EIGHT; break;
-        case 8: display_pattern = NINE; break;
-        case 9: display_pattern = A; break;
-        default: display_pattern = ZERO;
+        case 0: display_pattern = ZERO; break;
+        case 1: display_pattern = ONE; break;
+        case 2: display_pattern = TWO; break;
+        case 3: display_pattern = THREE; break;
+        case 4: display_pattern = FOUR; break;
+        case 5: display_pattern = FIVE; break;
+        case 6: display_pattern = SIX; break;
+        case 7: display_pattern = SEVEN; break;
+        case 8: display_pattern = EIGHT; break;
+        case 9: display_pattern = NINE; break;
+        default: display_pattern = A;
     }
     XGpio_DiscreteWrite(&output, 1, display_pattern);
 }

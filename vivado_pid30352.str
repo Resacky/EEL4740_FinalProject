@@ -2001,3 +2001,4 @@ dismissDialog("Launch SDK"); // aa (cj)
 // Tcl Message: launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf 
 // Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
 // [GUI Memory]: 128 MB (+1184kb) [00:32:41]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,031 MB. GUI used memory: 72 MB. Current time: 11/21/23 9:57:04 PM EST
