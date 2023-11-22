@@ -1,0 +1,230 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Nov 21 18:31:43 2023
+# Process ID: 31688
+# Current directory: C:/Users/ruiz-/EEL4740_FinalProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1084 C:\Users\ruiz-\EEL4740_FinalProject\EEL4740_FinalProject.xpr
+# Log file: C:/Users/ruiz-/EEL4740_FinalProject/vivado.log
+# Journal file: C:/Users/ruiz-/EEL4740_FinalProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ruiz-/EEL4740_FinalProject/led_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 885.953 ; gain = 148.012
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/system.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - switches
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - buttons
+Adding cell -- xilinx.com:user:led_ip:1.0 - led_ip
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <system> from BD file <C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 950.391 ; gain = 63.004
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'system_ps7_0_axi_periph_0' found in library 'xil_defaultlib'
+[Tue Nov 21 18:32:29 2023] Launched synth_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Tue Nov 21 18:33:22 2023] Launched impl_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Nov 21 18:42:36 2023] Launched impl_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/runme.log
+file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/system_wrapper.sysdef C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property -dict [list CONFIG.C_GPIO_WIDTH {8} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_0]
+startgroup
+make_bd_intf_pins_external  [get_bd_intf_pins axi_gpio_0/GPIO]
+endgroup
+startgroup
+make_bd_pins_external  [get_bd_pins axi_gpio_0/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_0/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+endgroup
+delete_bd_objs [get_bd_intf_nets axi_gpio_0_GPIO]
+delete_bd_objs [get_bd_intf_ports GPIO_0]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/processing_system7_0/M_AXI_GP0" intc_ip "/ps7_0_axi_periph" Clk_xbar "Auto" Clk_master "Auto" Clk_slave "Auto" }  [get_bd_intf_pins axi_gpio_0/S_AXI]
+</axi_gpio_0/S_AXI/Reg> is being mapped into </processing_system7_0/Data> at <0x41220000 [ 64K ]>
+regenerate_bd_layout
+validate_bd_design
+WARNING: [BD 41-1771] Block interface /switches/GPIO has associated board param 'GPIO_BOARD_INTERFACE', which is set to board part interface 'sws_4bits'. This interface is connected to an external interface /switches, whose name 'switches' does not match with the board interface name 'sws_4bits'.
+This is a visual-only issue - this interface /switches/GPIO will be connected to board interface 'sws_4bits'. If desired, please change the name of this port /switches manually.
+validate_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1065.699 ; gain = 25.336
+save_bd_design
+Wrote  : <C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/system.bd> 
+Wrote  : <C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+validate_bd_design -force
+WARNING: [BD 41-1771] Block interface /switches/GPIO has associated board param 'GPIO_BOARD_INTERFACE', which is set to board part interface 'sws_4bits'. This interface is connected to an external interface /switches, whose name 'switches' does not match with the board interface name 'sws_4bits'.
+This is a visual-only issue - this interface /switches/GPIO will be connected to board interface 'sws_4bits'. If desired, please change the name of this port /switches manually.
+reset_run system_xbar_0_synth_1
+save_bd_design
+Wrote  : <C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/system.bd> 
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1771] Block interface /switches/GPIO has associated board param 'GPIO_BOARD_INTERFACE', which is set to board part interface 'sws_4bits'. This interface is connected to an external interface /switches, whose name 'switches' does not match with the board interface name 'sws_4bits'.
+This is a visual-only issue - this interface /switches/GPIO will be connected to board interface 'sws_4bits'. If desired, please change the name of this port /switches manually.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/synth/system.vhd
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block switches .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buttons .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_3/system_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_2/system_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_4/system_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/synth/system.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_3, cache-ID = 271859feea5905da; cache size = 2.718 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_2, cache-ID = 271859feea5905da; cache size = 2.718 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_1, cache-ID = 271859feea5905da; cache size = 2.718 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = 271859feea5905da; cache size = 2.718 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_4, cache-ID = 4fdb4245bb00b9dc; cache size = 2.718 MB.
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'system_ps7_0_axi_periph_0' found in library 'xil_defaultlib'
+[Tue Nov 21 18:52:33 2023] Launched system_xbar_0_synth_1, system_axi_gpio_0_2_synth_1...
+Run output will be captured here:
+system_xbar_0_synth_1: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_xbar_0_synth_1/runme.log
+system_axi_gpio_0_2_synth_1: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/runme.log
+[Tue Nov 21 18:52:33 2023] Launched synth_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1197.879 ; gain = 102.891
+launch_runs impl_1 -jobs 8
+[Tue Nov 21 18:54:19 2023] Launched impl_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Nov 21 19:12:52 2023] Launched impl_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/runme.log
+file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/system_wrapper.sysdef C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+validate_bd_design -force
+WARNING: [BD 41-1771] Block interface /switches/GPIO has associated board param 'GPIO_BOARD_INTERFACE', which is set to board part interface 'sws_4bits'. This interface is connected to an external interface /switches, whose name 'switches' does not match with the board interface name 'sws_4bits'.
+This is a visual-only issue - this interface /switches/GPIO will be connected to board interface 'sws_4bits'. If desired, please change the name of this port /switches manually.
+save_bd_design
+Wrote  : <C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/system.bd> 
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1771] Block interface /switches/GPIO has associated board param 'GPIO_BOARD_INTERFACE', which is set to board part interface 'sws_4bits'. This interface is connected to an external interface /switches, whose name 'switches' does not match with the board interface name 'sws_4bits'.
+This is a visual-only issue - this interface /switches/GPIO will be connected to board interface 'sws_4bits'. If desired, please change the name of this port /switches manually.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/synth/system.vhd
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(13) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/sim/system.vhd
+VHDL Output written to : C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block switches .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buttons .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block led_ip .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_3/system_auto_pc_3_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m04_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_2/system_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m02_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_auto_pc_4/system_auto_pc_4_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/hw_handoff/system.hwh
+Generated Block Design Tcl file C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/synth/system.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_3, cache-ID = 271859feea5905da; cache size = 3.792 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_2, cache-ID = 271859feea5905da; cache size = 3.792 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_1, cache-ID = 271859feea5905da; cache size = 3.792 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_0, cache-ID = 271859feea5905da; cache size = 3.792 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP system_auto_pc_4, cache-ID = 4fdb4245bb00b9dc; cache size = 3.792 MB.
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'system_ps7_0_axi_periph_0' found in library 'xil_defaultlib'
+[Tue Nov 21 19:26:47 2023] Launched synth_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1407.406 ; gain = 44.324
+launch_runs impl_1 -jobs 8
+[Tue Nov 21 19:27:42 2023] Launched impl_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Tue Nov 21 19:38:31 2023] Launched impl_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/runme.log
+file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/system_wrapper.sysdef C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/system.bd}
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'system_ps7_0_axi_periph_0' found in library 'xil_defaultlib'
+[Tue Nov 21 20:40:17 2023] Launched system_axi_gpio_0_2_synth_1, system_auto_pc_4_synth_1...
+Run output will be captured here:
+system_axi_gpio_0_2_synth_1: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/runme.log
+system_auto_pc_4_synth_1: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_auto_pc_4_synth_1/runme.log
+[Tue Nov 21 20:40:18 2023] Launched synth_1...
+Run output will be captured here: C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/synth_1/runme.log
+startgroup
+endgroup
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 21 20:41:52 2023...
