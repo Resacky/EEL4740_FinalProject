@@ -33,7 +33,7 @@ set_property board_part digilentinc.com:zybo-z7-20:part0:1.1 [current_project]
 set_property ip_repo_paths c:/Users/ruiz-/EEL4740_FinalProject/led_ip [current_project]
 set_property ip_output_repo c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_ip -quiet c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.xci
+read_ip -quiet C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.xci
 set_property used_in_implementation false [get_files -all c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.xdc]
@@ -88,32 +88,32 @@ write_checkpoint -force -noxdef system_axi_gpio_0_2.dcp
 create_report "system_axi_gpio_0_2_synth_1_synth_report_utilization_0" "report_utilization -file system_axi_gpio_0_2_utilization_synth.rpt -pb system_axi_gpio_0_2_utilization_synth.pb"
 
 if { [catch {
-  file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2.dcp c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.dcp
+  file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2.dcp C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  write_verilog -force -mode synth_stub c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.v
+  write_verilog -force -mode synth_stub C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode synth_stub c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.vhdl
+  write_vhdl -force -mode synth_stub C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_verilog -force -mode funcsim c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.v
+  write_verilog -force -mode funcsim C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  write_vhdl -force -mode funcsim c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.vhdl
+  write_vhdl -force -mode funcsim C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -123,32 +123,32 @@ if { [catch {
 
 
 if { [catch {
-  file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2.dcp c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.dcp
+  file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2.dcp C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2.dcp
 } _RESULT ] } { 
   send_msg_id runtcl-3 error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
   error "ERROR: Unable to successfully create or copy the sub-design checkpoint file."
 }
 
 if { [catch {
-  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_stub.v c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.v
+  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_stub.v C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a Verilog synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_stub.vhdl c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.vhdl
+  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_stub.vhdl C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create a VHDL synthesis stub for the sub-design. This may lead to errors in top level synthesis of the design. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_sim_netlist.v c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.v
+  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_sim_netlist.v C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.v
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the Verilog functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
 
 if { [catch {
-  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_sim_netlist.vhdl c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.vhdl
+  file rename -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/system_axi_gpio_0_2_synth_1/system_axi_gpio_0_2_sim_netlist.vhdl C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_sim_netlist.vhdl
 } _RESULT ] } { 
   puts "CRITICAL WARNING: Unable to successfully create the VHDL functional simulation sub-design file. Post-Synthesis Functional Simulation with this file may not be possible or may give incorrect results. Error reported: $_RESULT"
 }
@@ -157,12 +157,12 @@ if { [catch {
 
 if {[file isdir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.ip_user_files/ip/system_axi_gpio_0_2]} {
   catch { 
-    file copy -force c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.v C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.ip_user_files/ip/system_axi_gpio_0_2
+    file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.v C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.ip_user_files/ip/system_axi_gpio_0_2
   }
 }
 
 if {[file isdir C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.ip_user_files/ip/system_axi_gpio_0_2]} {
   catch { 
-    file copy -force c:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.vhdl C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.ip_user_files/ip/system_axi_gpio_0_2
+    file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/ip/system_axi_gpio_0_2/system_axi_gpio_0_2_stub.vhdl C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.ip_user_files/ip/system_axi_gpio_0_2
   }
 }

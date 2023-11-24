@@ -1,7 +1,7 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
---Date        : Tue Nov 21 21:27:01 2023
+--Date        : Thu Nov 23 20:29:16 2023
 --Host        : DESKTOP-AR0I5QT running 64-bit major release  (build 9200)
 --Command     : generate_target system.bd
 --Design      : system
@@ -3399,6 +3399,7 @@ architecture STRUCTURE of system is
     s_axi_rresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_rvalid : out STD_LOGIC;
     s_axi_rready : in STD_LOGIC;
+    ip2intc_irpt : out STD_LOGIC;
     gpio_io_o : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   end component system_axi_gpio_0_2;
@@ -3579,6 +3580,7 @@ architecture STRUCTURE of system is
   signal switches_GPIO_TRI_I : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal switches_ip2intc_irpt : STD_LOGIC;
   signal NLW_axi_bram_ctrl_0_bram_rsta_busy_UNCONNECTED : STD_LOGIC;
+  signal NLW_axi_gpio_0_ip2intc_irpt_UNCONNECTED : STD_LOGIC;
   signal NLW_rst_ps7_0_100M_mb_reset_UNCONNECTED : STD_LOGIC;
   signal NLW_rst_ps7_0_100M_bus_struct_reset_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   signal NLW_rst_ps7_0_100M_interconnect_aresetn_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -3680,6 +3682,7 @@ axi_bram_ctrl_0_bram: component system_axi_bram_ctrl_0_bram_1
 axi_gpio_0: component system_axi_gpio_0_2
      port map (
       gpio_io_o(7 downto 0) => axi_gpio_0_gpio_io_o(7 downto 0),
+      ip2intc_irpt => NLW_axi_gpio_0_ip2intc_irpt_UNCONNECTED,
       s_axi_aclk => processing_system7_0_FCLK_CLK0,
       s_axi_araddr(8 downto 0) => ps7_0_axi_periph_M04_AXI_ARADDR(8 downto 0),
       s_axi_aresetn => rst_ps7_0_100M_peripheral_aresetn(0),
