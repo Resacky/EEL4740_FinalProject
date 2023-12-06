@@ -2,32 +2,13 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Nov 21 21:13:54 2023
-# Process ID: 30352
+# Start of session at: Fri Dec  1 11:06:24 2023
+# Process ID: 37096
 # Current directory: C:/Users/ruiz-/EEL4740_FinalProject
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2368 C:\Users\ruiz-\EEL4740_FinalProject\EEL4740_FinalProject.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21828 C:\Users\ruiz-\EEL4740_FinalProject\EEL4740_FinalProject.xpr
 # Log file: C:/Users/ruiz-/EEL4740_FinalProject/vivado.log
 # Journal file: C:/Users/ruiz-/EEL4740_FinalProject\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.xpr
 update_compile_order -fileset sources_1
-launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
-open_bd_design {C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.srcs/sources_1/bd/system/system.bd}
-file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/system_wrapper.sysdef C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
-
-launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
-launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
-validate_bd_design -force
-save_bd_design
-reset_run synth_1
-launch_runs synth_1 -jobs 8
-wait_on_run synth_1
-launch_runs impl_1 -jobs 8
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-file copy -force C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.runs/impl_1/system_wrapper.sysdef C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
-
-launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
-launch_sdk -workspace C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk -hwspec C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.sdk/system_wrapper.hdf
