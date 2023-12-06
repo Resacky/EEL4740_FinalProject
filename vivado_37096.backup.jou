@@ -2,14 +2,13 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Dec  5 22:57:14 2023
-# Process ID: 4744
+# Start of session at: Fri Dec  1 11:06:24 2023
+# Process ID: 37096
 # Current directory: C:/Users/ruiz-/EEL4740_FinalProject
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43496 C:\Users\ruiz-\EEL4740_FinalProject\EEL4740_FinalProject.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21828 C:\Users\ruiz-\EEL4740_FinalProject\EEL4740_FinalProject.xpr
 # Log file: C:/Users/ruiz-/EEL4740_FinalProject/vivado.log
 # Journal file: C:/Users/ruiz-/EEL4740_FinalProject\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/ruiz-/EEL4740_FinalProject/EEL4740_FinalProject.xpr
 update_compile_order -fileset sources_1
-update_files -from_files C:/Users/ruiz-/EEL4740_FinalProject/lab4_zybo.xdc -to_files C:/Users/ruiz-/Downloads/lab4_zybo.xdc -filesets [get_filesets *]

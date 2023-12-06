@@ -2,10 +2,10 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Tue Dec  5 22:57:14 2023
-# Process ID: 4744
+# Start of session at: Fri Dec  1 11:06:24 2023
+# Process ID: 37096
 # Current directory: C:/Users/ruiz-/EEL4740_FinalProject
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43496 C:\Users\ruiz-\EEL4740_FinalProject\EEL4740_FinalProject.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21828 C:\Users\ruiz-\EEL4740_FinalProject\EEL4740_FinalProject.xpr
 # Log file: C:/Users/ruiz-/EEL4740_FinalProject/vivado.log
 # Journal file: C:/Users/ruiz-/EEL4740_FinalProject\vivado.jou
 #-----------------------------------------------------------
@@ -16,9 +16,7 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ruiz-/EEL4740_FinalProject/led_ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 889.082 ; gain = 143.336
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 878.188 ; gain = 143.508
 update_compile_order -fileset sources_1
-update_files -from_files C:/Users/ruiz-/EEL4740_FinalProject/lab4_zybo.xdc -to_files C:/Users/ruiz-/Downloads/lab4_zybo.xdc -filesets [get_filesets *]
-INFO: [filemgmt 20-762] Replacing file 'C:/Users/ruiz-/Downloads/lab4_zybo.xdc' with file 'C:/Users/ruiz-/EEL4740_FinalProject/lab4_zybo.xdc'.
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Dec  5 23:00:23 2023...
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  1 11:07:25 2023...
