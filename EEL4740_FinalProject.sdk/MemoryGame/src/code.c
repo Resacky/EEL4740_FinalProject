@@ -63,7 +63,7 @@ void delay(int base_delay)
 {
     XTime tEnd, tCur;
     XTime_GetTime(&tCur);
-    unsigned int delay_factor = 16 - switch_value; // Inverse relationship: higher switch value, shorter delay
+    unsigned int delay_factor = switch_value + 1; // Inverse relationship: higher switch value, shorter delay
     tEnd = tCur + ((XTime)base_delay * COUNTS_PER_SECOND / delay_factor);
     while (tCur < tEnd)
     {
@@ -377,6 +377,9 @@ int main(void)
     Configure_GIC();
     EnableInts();
     ExceptionInit();
+
+    switch_value = XGpio_DiscreteRead(&dip, 1) & 0x0F;
+    xil_printf("Switch initialized, speed modifier: %x\r\n", switch_value);
 
     xil_printf("Interrupt configurations finished\r\n");
 
