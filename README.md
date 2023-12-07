@@ -1,13 +1,9 @@
 # EEL4740_FinalProject
- This is a streamlined version of my FPGA Final Project solution, The embedded system model I am using is the Zybo Z7-20 which is using VHDL and open block design for the implementation, the code is using C and it is programmed using the Vivado SDK.
- 
- To initialize and start the project you will want to run the projects '.xpr' Vivado project solution file, which will launch Vivado and start the project solution.
- Once launched the open block design should be auto configured to read within the project solution, the 'lab4_zybo.xdc' constraint file and the led_ip custom IP.
- If you by any means need to generate a new wrapper for the project you can simply do so by running the synthesis, implementation and the bitstream.
- Afterwhich you can then click on file, then export, export hardware...
- 
- Once the hardware is exported you can create a new application project and use the wrapper that you have exported to use the FPGA's configurations.
- The code provided within the SDK is already configured to use the current housed wrapper with all the peripherals configured.
+This report presents a refined version of my final project for the FPGA course. The project employs the Zybo Z7-20 embedded system model, utilizing VHDL and an open block design approach for its development. The programming is carried out in C language, facilitated by the Vivado SDK environment.
+
+To initiate the project, the Vivado project solution file (with a '.xpr' extension) should be executed. This action will activate Vivado and load the project. Once in the Vivado environment, the open block design is already preconfigured with the scope of the project, incorporating the 'lab4_zybo.xdc' constraint file and the custom IP for LED, named 'led_ip'. In cases where a new project wrapper needs to be generated, it can be accomplished by performing synthesis, implementation, and bitstream processes. Subsequently, by navigating to 'File', then 'Export', and selecting 'Export Hardware', the process is completed.
+
+Following the hardware export, a new application project can be created, utilizing the newly exported wrapper to apply the FPGA configurations. The code available in the SDK is pre-configured to interact with the current wrapper, ensuring all peripherals are appropriately integrated.
 
 The resources we used were:
 
