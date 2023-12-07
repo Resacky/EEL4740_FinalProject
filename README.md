@@ -11,5 +11,7 @@
 
 The resources we used were:
 https://digilent.com/reference/programmable-logic/zybo-z7/reference-manual
+
 https://docs.xilinx.com/v/u/2017.1-English/ug904-vivado-implementation
+
 https://forum.digilent.com/topic/9222-pmod-ssd/
