@@ -8,3 +8,8 @@
  
  Once the hardware is exported you can create a new application project and use the wrapper that you have exported to use the FPGA's configurations.
  The code provided within the SDK is already configured to use the current housed wrapper with all the peripherals configured.
+
+The resources we used were:
+https://digilent.com/reference/programmable-logic/zybo-z7/reference-manual
+https://docs.xilinx.com/v/u/2017.1-English/ug904-vivado-implementation
+https://forum.digilent.com/topic/9222-pmod-ssd/
