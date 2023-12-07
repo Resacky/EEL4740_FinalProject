@@ -10,6 +10,7 @@
  The code provided within the SDK is already configured to use the current housed wrapper with all the peripherals configured.
 
 The resources we used were:
+
 https://digilent.com/reference/programmable-logic/zybo-z7/reference-manual
 
 https://docs.xilinx.com/v/u/2017.1-English/ug904-vivado-implementation
